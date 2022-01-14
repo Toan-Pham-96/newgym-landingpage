@@ -1206,28 +1206,6 @@ ul {
     font-weight: bold;
     color: #34c38f; }
 
-#menu {
-  padding-left: 80px;
-  padding-right: 40px;
-  padding-top: 50px;
-  padding-bottom: 45px;
-  background: #333333;
-  height: 100vh;
-  width: 100vw;
-  right: -50%;
-  opacity: 0;
-  overflow: hidden;
-  position: fixed;
-  text-align: center;
-  top: 0;
-  transition: all 0.7s ease-in-out;
-  visibility: hidden;
-  width: 100%; }
-  #menu.open {
-    right: 0;
-    opacity: 1;
-    visibility: visible; }
-
 .heading-main {
   padding: 2rem 4rem;
   position: fixed;
@@ -1367,6 +1345,28 @@ ul {
             -moz-transform: translateY(calc(100% + 1rem));
             -ms-transform: translateY(calc(100% + 1rem));
             -o-transform: translateY(calc(100% + 1rem)); }
+    @media only screen and (max-width: 1024px) {
+      .heading-main .heading-wrapper #menu {
+        padding-left: 80px;
+        padding-right: 40px;
+        padding-top: 50px;
+        padding-bottom: 45px;
+        background: #333333;
+        height: 100vh;
+        width: 100vw;
+        right: -50%;
+        opacity: 0;
+        overflow: hidden;
+        position: fixed;
+        text-align: center;
+        top: 0;
+        transition: all 0.7s ease-in-out;
+        visibility: hidden;
+        width: 100%; }
+        .heading-main .heading-wrapper #menu.open {
+          right: 0;
+          opacity: 1;
+          visibility: visible; } }
     .heading-main .heading-wrapper .toggle-menu {
       background-color: transparent;
       border: none;

@@ -38,7 +38,7 @@ $(document).ready(function() {
     //SLIDE BANNER
     $('.banner-img__slide').slick({
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 3500,
         slidesToScroll: 1,
         slidesToShow: 1,
         lazyLoad: 'ondemand',
@@ -52,7 +52,7 @@ $(document).ready(function() {
       //SLIDE BANNER
       $('.banner-content__slide').slick({
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 3500,
         speed: 1500,
         slidesToScroll: 1,
         slidesToShow: 1,
